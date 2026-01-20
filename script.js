@@ -41,13 +41,13 @@ function init() {
     humanModel.visible = false;
     group.add(humanModel);
   });
-  loader.load('eiffel.glb', gltf => {
+  loader.load('eiffel_tower_1.glb', gltf => {
     eiffelModel = gltf.scene;
     eiffelModel.scale.set(0.5,0.5,0.5);
     eiffelModel.visible = false;
     group.add(eiffelModel);
   });
-  loader.load('burjkhalifa.glb', gltf => {
+  loader.load('burj_khalifa.glb', gltf => {
     burjModel = gltf.scene;
     burjModel.scale.set(0.05,0.05,0.05);
     burjModel.visible = false;
