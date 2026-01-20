@@ -41,7 +41,7 @@ function init() {
     humanModel.visible = false;
     group.add(humanModel);
   });
-  loader.load('eiffel.gltf', gltf => {
+  loader.load('eiffel.glb', gltf => {
     eiffelModel = gltf.scene;
     eiffelModel.scale.set(0.5,0.5,0.5);
     eiffelModel.visible = false;
